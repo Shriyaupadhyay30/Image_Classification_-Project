@@ -1,0 +1,47 @@
+Feature Engineering Parts
+- Image normalization and scaling
+- image augmentation (Rotations, brightess, flips)
+- handling input sizes and channels
+- class label
+- Batch Processing
+
+How does Pixel Intensity helps the model?
+helps to understand the image better and see the features and patterns on the image
+helps to identify textures patterns
+help to differential objects in image
+
+How does edge detection helps the model?
+helps to focus on main object of the classification which is leaf in this one
+simplifies the image
+object boundaries 
+
+Why Sequential Model?
+Simplicity as its linear stack of layers, beginner friendly
+Its compatibility with CNNs.
+Layer by layer progression
+
+What is CNN?
+Convolutional Neural Network (CNN) is a deep learning models designed for structured grid data like image processing. Its use for object detection, classification.
+
+how does it work?
+Convolution layer (applies filter layer over image to detect features like edges colors)
+Activation function (ReLU - Rectified Linear unit) applied to lean complex pattern
+Pooling layer (reducing dimension by down sampling),
+Dense Layer (After convolution and pooling Dense layer makes prediction based on leanred feature
+
+What is regularization?
+Techniques used by ML and deep learning to prevent model from overfitting. (L1, L2, Elastic Net) It introduces constraints and penalties .
+it helps for simpler models, generalization
+
+What is Epoch?
+is it one complete pass of the entire training dataset, it is done multiple times to not miss any thing on the dataset and for model to learn it properly.
+
+What does Precision, recall, f1-score, accuracy and support show?
+Precision - Proportion of correct prediction (to minimize false positive) 
+Recall - sensitivity or TP rate ( When you need to minimize false negative)
+Accuracy - Accurate predication
+Support - number of actual occurrence
+
+Macro avg and weight
+macro avg - gives equal weight to each class
+weight avg - class imbalance
