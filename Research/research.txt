@@ -13,6 +13,8 @@ o	Brightness/Contrast adjustments: Helps with different lighting conditions.
 o	Shear: Apply shear transformations to simulate image perspective changes.
 
 
+STACKING:
+
 The hierarchical classification approach involves two stages:
 
 Stage 1: Binary Classifier (High Accuracy Diseases vs. Other Diseases)
